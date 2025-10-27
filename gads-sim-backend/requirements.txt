@@ -1,0 +1,37 @@
+# Core FastAPI dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-dotenv>=1.0.0
+
+# Database
+SQLAlchemy>=2.0.0
+pyodbc>=4.0.39
+
+# Google Ads API
+google-ads>=24.1.0
+
+# Data processing
+pydantic>=2.5.0
+pyyaml>=6.0
+numpy>=1.24.0
+
+# HTTP requests
+requests>=2.31.0
+httpx>=0.24.0
+
+# Google Sheets API
+google-api-python-client>=2.100.0
+google-auth>=2.23.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+
+# Caching
+diskcache>=5.6.0
+
+# Logging
+structlog>=23.2.0
+
+# SQL Server Database
+pandas>=2.0.0
+sqlalchemy>=2.0.0
+alembic>=1.12.0
