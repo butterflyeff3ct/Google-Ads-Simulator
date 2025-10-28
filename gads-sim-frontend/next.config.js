@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
+  output: 'export',
+  basePath: '/Google-Ads-Simulator',
+  images: {
+    unoptimized: true,
+  },
 }
 
 module.exports = nextConfig
